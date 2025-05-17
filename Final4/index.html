@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpentry</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="index2.html">
+    <link rel="stylesheet" href="index3.html">
+</head>
+<body>
+    <div class="cart-icon">
+        <span class="material-icons">🛒</span>
+        <span class="cart-count">0</span>
+    </div>
+
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button class="close-cart">×</button>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+            <h3>Total: <span>₹0</span></h3>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Carpentary</h1>
+            <div class="rating">
+                <span class="star">★</span>
+                <span>4.79 (1.2 M bookings)</span>
+            </div>
+        </header>
+
+        <section class="service-selector">
+            <h2>Select a service</h2>
+            <div class="service-grid">
+               <a href="index.html"><div class="service-card">
+                    <img src="istockphoto-137142928-612x612.jpg" alt="Furnished apartment">
+                    <p>Door Making</p>
+                </div>
+            </a> 
+                <a href="index2.html"> <div class="service-card">
+                    <img src="Modern-Apartment-Sofa-and-Bed-with-Storage-High-Quality-Small-Living-Room-Furniture-Folding-Sofa-Bed.avif" alt="Unfurnished apartment">
+                    <p>Sofa and Bed</p>
+                </div>
+            </a>
+               <a href="index3.html"><div class="service-card">
+                    <img src="white-wooden-bedroom-cupboard-500x500.webp" alt="Book by room">
+                    <p>Cupboard</p>
+                </div>
+            </a> 
+            </div>
+        </section>
+
+        <section class="service-details">
+            <h2>Furnished apartment</h2>
+            
+            <div class="service-option" data-id="1bhk" data-price="3199">
+                <div class="service-info">
+                    <h3>Repair Fractured Door</h3>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span>4.79 (7K reviews)</span>
+                    </div>
+                    <p class="price">Starts at ₹2000</p>
+                    <ul>
+                        <li>Repairig , New installation ,  Painting of Doors </li>
+                        <li>New Modern Design Doors</li>
+                    </ul>
+                    <button class="view-details">View details</button>
+                </div>
+                <div class="service-image">
+                    <img src="i2.jpg" alt="1 BHK">
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="service-option" data-id="2bhk" data-price="3499">
+                <div class="service-info">
+                    <h3>Window and Glasses</h3>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span>4.80 (18K reviews)</span>
+                    </div>
+                    <p class="price">Starts at ₹3,499</p>
+                    <ul>
+                        <li>Repairing , Replacing , New Installation</li>
+                        <li>Excludes terrace cleaning & paint marks removal</li>
+                    </ul>
+                    <button class="view-details">View details</button>
+                </div>
+                <div class="service-image">
+                    <img src="10-top-wood-window-designs-f.jpg" alt="2 BHK">
+                    <button class="add-btn">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>

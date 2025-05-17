@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Cleaning Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cart-icon">
+        <span class="material-icons">🛒</span>
+        <span class="cart-count">0</span>
+    </div>
+
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button class="close-cart">×</button>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+            <h3>Total: <span>₹0</span></h3>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Full Home Cleaning</h1>
+            <div class="rating">
+                <span class="star">★</span>
+                <span>4.79 (1.2 M bookings)</span>
+            </div>
+        </header>
+
+        <section class="service-selector">
+            <h2>Select a service</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=500&auto=format" alt="Furnished apartment">
+                    <p>Furnished apartment</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=500&auto=format" alt="Unfurnished apartment">
+                    <p>Unfurnished apartment</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=500&auto=format" alt="Book by room">
+                    <p>Book by room</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-details">
+            <h2>Furnished apartment</h2>
+            
+            <div class="service-option" data-id="1bhk" data-price="3199">
+                <div class="service-info">
+                    <h3>1 BHK apartment cleaning</h3>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span>4.79 (7K reviews)</span>
+                    </div>
+                    <p class="price">Starts at ₹3,199</p>
+                    <ul>
+                        <li>Includes 1 bedroom, 1 bathroom, 1 hall, 1 kitchen & 1 balcony</li>
+                        <li>Excludes terrace cleaning & paint marks removal</li>
+                    </ul>
+                    <button class="view-details">View details</button>
+                </div>
+                <div class="service-image">
+                    <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=500&auto=format" alt="1 BHK">
+                    <button class="add-btn">Add to Cart</button>
+                    <span class="options">3 options</span>
+                </div>
+            </div>
+
+            <div class="service-option" data-id="2bhk" data-price="3499">
+                <div class="service-info">
+                    <h3>2 BHK apartment cleaning</h3>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span>4.80 (18K reviews)</span>
+                    </div>
+                    <p class="price">Starts at ₹3,499</p>
+                    <ul>
+                        <li>Includes 2 bedrooms, 2 bathrooms, 1 hall, 1 kitchen & 2 balconies</li>
+                        <li>Excludes terrace cleaning & paint marks removal</li>
+                    </ul>
+                    <button class="view-details">View details</button>
+                </div>
+                <div class="service-image">
+                    <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=500&auto=format" alt="2 BHK">
+                    <button class="add-btn">Add to Cart</button>
+                    <span class="options">3 options</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
